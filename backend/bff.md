@@ -3,41 +3,40 @@
 ## 🧠 Mindmap Overview
 ```
 BFF (Backend for Frontend)
-├── 🎯 Purpose & Concept
-│   ├── Frontend-Specific APIs → API riêng cho từng loại frontend
-│   ├── Data Aggregation → Tổng hợp dữ liệu từ nhiều microservices
-│   ├── Protocol Translation → Chuyển đổi giao thức (gRPC → REST)
-│   └── Client Optimization → Tối ưu hóa cho client cụ thể
+├── 🎯 Core Concepts
+│   ├── Frontend-Specific → Tailored for each client
+│   ├── API Aggregation → Combine multiple services
+│   ├── Data Transformation → Format data for clients
+│   └── Client Optimization → Performance for specific use cases
 ├── 🏗️ Architecture Patterns
-│   ├── Single BFF → 1 BFF cho tất cả frontends
-│   ├── Multiple BFFs → Mỗi frontend có BFF riêng
-│   ├── Shared BFF → BFF dùng chung cho nhiều frontends
-│   └── BFF per Channel → BFF theo từng kênh (web, mobile, tablet)
-├── 🔄 Implementation
-│   ├── API Gateway → Sử dụng API Gateway làm BFF
-│   ├── Custom Service → Tự viết BFF service
-│   ├── GraphQL → GraphQL làm BFF layer
-│   └── Serverless → BFF dùng serverless functions
-├── ⚡ Benefits
-│   ├── Performance → Tăng tốc độ response
-│   ├── Flexibility → Linh hoạt thay đổi theo frontend
-│   ├── Security → Bảo mật tốt hơn
-│   └── Maintainability → Dễ bảo trì và phát triển
-└── ⚠️ Challenges
-    ├── Code Duplication → Trùng lặp code giữa các BFF
-    ├── Complexity → Tăng độ phức tạp hệ thống
-    ├── Deployment → Phức tạp trong triển khai
-    └── Testing → Khó khăn trong testing
+│   ├── Single BFF → One BFF for all frontends
+│   ├── Multiple BFFs → Separate BFF per client type
+│   ├── Shared BFF → Common functionality
+│   └── BFF per Team → Team ownership model
+├── 🔄 Data Management
+│   ├── Service Composition → Orchestrate microservices
+│   ├── Caching Strategy → Client-specific caching
+│   ├── Data Filtering → Remove unnecessary data
+│   └── Response Optimization → Minimize payload size
+├── 🚀 Performance
+│   ├── Request Batching → Multiple calls in one request
+│   ├── Response Caching → Cache frequently requested data
+│   ├── Lazy Loading → Load data on demand
+│   └── Compression → Reduce response size
+└── 🛡️ Security & Monitoring
+    ├── Authentication → Client-specific auth
+    ├── Rate Limiting → Per-client limits
+    ├── Monitoring → Performance tracking
+    └── Error Handling → Client-friendly errors
 ```
 
 ## 📋 Table of Contents
 - [Core Concepts](#core-concepts)
 - [Architecture Patterns](#architecture-patterns)
-- [Implementation Approaches](#implementation-approaches)
-- [Benefits & Trade-offs](#benefits--trade-offs)
-- [Real-world Examples](#real-world-examples)
+- [Data Management](#data-management)
+- [Performance](#performance)
+- [Security & Monitoring](#security--monitoring)
 - [Common Interview Questions](#common-interview-questions)
-- [Best Practices](#best-practices)
 
 ## 🎯 Core Concepts
 

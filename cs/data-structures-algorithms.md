@@ -4,39 +4,40 @@
 ```
 Data Structures & Algorithms
 ├── 📊 Data Structures
-│   ├── Arrays → Linear, indexed access
-│   ├── Linked Lists → Dynamic, pointer-based
+│   ├── Arrays → Linear, indexed access, O(1) read
+│   ├── Linked Lists → Dynamic, pointer-based, O(n) search
 │   ├── Stacks & Queues → LIFO/FIFO operations
-│   ├── Trees → Hierarchical, recursive
-│   ├── Graphs → Network, relationships
-│   └── Hash Tables → Key-value, O(1) access
+│   ├── Trees → Hierarchical, recursive traversal
+│   ├── Graphs → Network relationships, pathfinding
+│   └── Hash Tables → Key-value, O(1) average access
 ├── 🔍 Searching Algorithms
-│   ├── Linear Search → O(n), simple
-│   ├── Binary Search → O(log n), sorted data
+│   ├── Linear Search → O(n), simple, unsorted data
+│   ├── Binary Search → O(log n), sorted data requirement
 │   ├── Depth-First Search → Tree/Graph traversal
-│   └── Breadth-First Search → Level-by-level
+│   └── Breadth-First Search → Level-by-level exploration
 ├── 🔄 Sorting Algorithms
-│   ├── Bubble Sort → O(n²), simple
-│   ├── Quick Sort → O(n log n), divide-conquer
-│   ├── Merge Sort → O(n log n), stable
-│   └── Heap Sort → O(n log n), in-place
-├── ⚡ Time Complexity
+│   ├── Bubble Sort → O(n²), simple, stable
+│   ├── Quick Sort → O(n log n), divide-conquer, in-place
+│   ├── Merge Sort → O(n log n), stable, external sort
+│   └── Heap Sort → O(n log n), in-place, heap data structure
+├── ⚡ Complexity Analysis
 │   ├── Big O Notation → Worst case analysis
-│   ├── Space Complexity → Memory usage
+│   ├── Space Complexity → Memory usage analysis
 │   ├── Best/Average/Worst → Different scenarios
-│   └── Optimization → Algorithm improvement
+│   └── Optimization → Algorithm improvement strategies
 └── 🎯 Problem Solving
-    ├── Two Pointers → Array manipulation
+    ├── Two Pointers → Array manipulation techniques
     ├── Sliding Window → Subarray problems
     ├── Dynamic Programming → Optimal substructure
-    └── Greedy Algorithms → Local optimal choice
+    └── Greedy Algorithms → Local optimal choices
 ```
 
 ## 📋 Table of Contents
 - [Data Structures](#data-structures)
 - [Searching Algorithms](#searching-algorithms)
 - [Sorting Algorithms](#sorting-algorithms)
-- [Time Complexity](#time-complexity)
+- [Complexity Analysis](#complexity-analysis)
+- [Problem Solving](#problem-solving)
 - [Common Interview Questions](#common-interview-questions)
 
 ## 📊 Data Structures

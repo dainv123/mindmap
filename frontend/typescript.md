@@ -1,39 +1,41 @@
-# 📘 TypeScript Deep Dive - Complete Knowledge Map
+# 🔷 TypeScript - Complete Knowledge Map
 
 ## 🧠 Mindmap Overview
 ```
-TypeScript Deep Dive
+TypeScript
 ├── 🎯 Core Concepts
 │   ├── Static Typing → Compile-time type checking
-│   ├── Type Inference → Automatic type detection
-│   ├── Structural Typing → Duck typing, shape-based
-│   └── Type Safety → Catch errors before runtime
-├── 🏗️ Advanced Types
+│   ├── JavaScript Superset → All JS is valid TS
+│   ├── Type Safety → Catch errors early
+│   └── Tooling Support → IDE integration, refactoring
+├── 🏗️ Type System
+│   ├── Basic Types → string, number, boolean, array
+│   ├── Object Types → interfaces, type aliases
 │   ├── Union Types → Multiple possible types
-│   ├── Intersection Types → Combine multiple types
-│   ├── Generic Types → Reusable type parameters
-│   └── Conditional Types → Type-level programming
-├── 🔧 Type System
-│   ├── Interfaces → Object shape definitions
-│   ├── Type Aliases → Custom type names
-│   ├── Enums → Named constants
-│   └── Namespaces → Module organization
-├── ⚡ Advanced Features
-│   ├── Decorators → Metadata and annotations
-│   ├── Utility Types → Built-in type helpers
+│   └── Generic Types → Reusable type parameters
+├── 🔄 Advanced Types
 │   ├── Mapped Types → Transform existing types
-│   └── Template Literal Types → String-based types
-└── 🚀 Best Practices
-    ├── Type Guards → Runtime type checking
-    ├── Error Handling → Typed error patterns
-    ├── Performance → Type optimization
-    └── Migration → JavaScript to TypeScript
+│   ├── Conditional Types → Type-level conditionals
+│   ├── Template Literal Types → String literal types
+│   └── Utility Types → Built-in type helpers
+├── ⚡ Language Features
+│   ├── Classes → OOP with type safety
+│   ├── Enums → Named constants
+│   ├── Namespaces → Code organization
+│   └── Modules → ES6 module system
+└── 🛠️ Configuration & Tools
+    ├── tsconfig.json → Compiler options
+    ├── Type Declarations → .d.ts files
+    ├── Declaration Files → Third-party types
+    └── Build Tools → Webpack, Vite, Rollup
 ```
 
 ## 📋 Table of Contents
 - [Core Concepts](#core-concepts)
-- [Advanced Types](#advanced-types)
 - [Type System](#type-system)
+- [Advanced Types](#advanced-types)
+- [Language Features](#language-features)
+- [Configuration & Tools](#configuration--tools)
 - [Common Interview Questions](#common-interview-questions)
 
 ## 🎯 Core Concepts

@@ -3,41 +3,40 @@
 ## 🧠 Mindmap Overview
 ```
 System Design
-├── 🎯 Core Principles
-│   ├── Scalability → Horizontal vs Vertical scaling
-│   ├── Availability → High availability, fault tolerance
-│   ├── Performance → Latency, throughput, optimization
-│   └── Reliability → Data consistency, error handling
+├── 🎯 Design Principles
+│   ├── Scalability → Handle increased load
+│   ├── Reliability → System availability, fault tolerance
+│   ├── Maintainability → Easy to modify, extend
+│   └── Performance → Response time, throughput
 ├── 🏗️ Architecture Patterns
-│   ├── Monolithic → Single application, simple deployment
-│   ├── Microservices → Independent services, loose coupling
+│   ├── Monolithic → Single application, simple
+│   ├── Microservices → Distributed, independent services
 │   ├── Event-Driven → Asynchronous communication
 │   └── CQRS → Command Query Responsibility Segregation
-├── 🔄 Data Management
-│   ├── Database Design → Normalization, indexing, sharding
-│   ├── Caching Strategy → Redis, CDN, application cache
-│   ├── Data Consistency → ACID, BASE, eventual consistency
+├── 🗄️ Data Management
+│   ├── Database Design → Schema, indexing, sharding
+│   ├── Caching → In-memory, distributed caching
+│   ├── CDN → Content delivery networks
 │   └── Data Replication → Master-slave, multi-master
 ├── ⚡ Performance & Scaling
-│   ├── Load Balancing → Round-robin, least connections
-│   ├── Horizontal Scaling → Add more servers
-│   ├── Vertical Scaling → Upgrade server resources
-│   └── Database Optimization → Query optimization, indexing
-└── 🔒 Security & Reliability
-    ├── Authentication → JWT, OAuth, SSO
-    ├── Authorization → RBAC, permissions
-    ├── Rate Limiting → API throttling
-    └── Monitoring → Logging, metrics, alerting
+│   ├── Load Balancing → Traffic distribution
+│   ├── Horizontal Scaling → Add more machines
+│   ├── Vertical Scaling → Increase machine capacity
+│   └── Auto-scaling → Dynamic resource allocation
+└── 🛡️ Security & Monitoring
+    ├── Authentication → User verification
+    ├── Authorization → Access control
+    ├── Monitoring → System health tracking
+    └── Logging → Audit trails, debugging
 ```
 
 ## 📋 Table of Contents
-- [Core Principles](#core-principles)
+- [Design Principles](#design-principles)
 - [Architecture Patterns](#architecture-patterns)
 - [Data Management](#data-management)
 - [Performance & Scaling](#performance--scaling)
-- [Security & Reliability](#security--reliability)
+- [Security & Monitoring](#security--monitoring)
 - [Common Interview Questions](#common-interview-questions)
-- [Real-world Examples](#real-world-examples)
 
 ## 🎯 Core Principles
 

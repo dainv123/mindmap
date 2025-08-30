@@ -1,6 +1,44 @@
-# 🌐 Web APIs & HTTP Deep Dive - Mindmap
+# 🌐 Web APIs & HTTP - Complete Knowledge Map
 
-## 🧠 Mindmap Structure
+## 🧠 Mindmap Overview
+```
+Web APIs & HTTP
+├── 🌐 HTTP Fundamentals
+│   ├── Methods → GET, POST, PUT, DELETE
+│   ├── Status Codes → 2xx, 4xx, 5xx responses
+│   ├── Headers → Request/Response metadata
+│   └── Body → Request/Response data
+├── 🏗️ API Design
+│   ├── REST Principles → Resource-based design
+│   ├── GraphQL → Query language for APIs
+│   ├── gRPC → High-performance RPC
+│   └── WebSockets → Real-time communication
+├── 🔒 API Security
+│   ├── Authentication → JWT, OAuth, API keys
+│   ├── Authorization → Role-based access
+│   ├── Rate Limiting → API protection
+│   └── CORS → Cross-origin requests
+├── 📊 Data Formats
+│   ├── JSON → JavaScript Object Notation
+│   ├── XML → Extensible Markup Language
+│   ├── Protocol Buffers → Binary serialization
+│   └── MessagePack → Binary JSON alternative
+└── 🚀 Performance
+    ├── Caching → Response caching strategies
+    ├── Compression → Gzip, Brotli compression
+    ├── CDN → Content delivery networks
+    └── Load Balancing → Traffic distribution
+```
+
+## 📋 Table of Contents
+- [HTTP Fundamentals](#http-fundamentals)
+- [API Design](#api-design)
+- [API Security](#api-security)
+- [Data Formats](#data-formats)
+- [Performance](#performance)
+- [Common Interview Questions](#common-interview-questions)
+
+## 🌐 HTTP Fundamentals
 ```
 Web APIs & HTTP Deep Dive
 ├── 🌍 HTTP Fundamentals
@@ -29,6 +67,11 @@ Web APIs & HTTP Deep Dive
 │       ├── HTTP/1.1 → Persistent connections, pipelining
 │       ├── HTTP/2 → Binary protocol, multiplexing, server push
 │       └── HTTP/3 → QUIC transport, UDP-based, faster
+```
+
+## 🔌 RESTful API Design
+```
+Web APIs & HTTP Deep Dive
 ├── 🔌 RESTful API Design
 │   ├── REST Principles
 │   │   ├── Stateless → No server state between requests
@@ -61,6 +104,11 @@ Web APIs & HTTP Deep Dive
 │       ├── Header Versioning → Accept: application/vnd.api+json;version=1
 │       ├── Content Negotiation → Accept: application/vnd.company.users.v1+json
 │       └── Version Management → Deprecation, migration strategies
+```
+
+## 🔐 Authentication & Authorization
+```
+Web APIs & HTTP Deep Dive
 ├── 🔐 Authentication & Authorization
 │   ├── Basic Auth
 │   │   ├── Username/password in Authorization header
@@ -111,6 +159,11 @@ Web APIs & HTTP Deep Dive
 │       ├── HSTS → HTTP Strict Transport Security
 │       ├── X-Frame-Options → Clickjacking protection
 │       └── X-Content-Type-Options → MIME type sniffing prevention
+```
+
+## 📡 API Patterns & Best Practices
+```
+Web APIs & HTTP Deep Dive
 ├── 📡 API Patterns & Best Practices
 │   ├── Pagination
 │   │   ├── Offset-based → page=1&limit=20
@@ -159,6 +212,11 @@ Web APIs & HTTP Deep Dive
 │           ├── Request/response examples
 │           ├── Authentication testing
 │           └── Error simulation
+```
+
+## 🚀 Modern Web APIs
+```
+Web APIs & HTTP Deep Dive
 ├── 🚀 Modern Web APIs
 │   ├── GraphQL
 │   │   ├── Query language for APIs
@@ -191,7 +249,12 @@ Web APIs & HTTP Deep Dive
 │       ├── Data channels
 │       ├── NAT traversal
 │       └── Use cases: video calls, file sharing
-└── 🔧 API Testing & Monitoring
+```
+
+## 🔧 API Testing & Monitoring
+```
+Web APIs & HTTP Deep Dive
+├── 🔧 API Testing & Monitoring
     ├── Testing Tools
     │   ├── Postman → GUI-based API testing
     │   ├── Insomnia → Modern API client

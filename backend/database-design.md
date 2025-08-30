@@ -1,40 +1,41 @@
-# 🗄️ Database Design & Optimization - Complete Knowledge Map
+# 🗄️ Database Design - Complete Knowledge Map
 
 ## 🧠 Mindmap Overview
 ```
-Database Design & Optimization
-├── 🎯 Database Types
-│   ├── Relational (SQL) → MySQL, PostgreSQL, Oracle
-│   ├── NoSQL → MongoDB, Redis, Cassandra
-│   ├── NewSQL → CockroachDB, TiDB
-│   └── Time Series → InfluxDB, TimescaleDB
+Database Design
 ├── 🏗️ Design Principles
-│   ├── Normalization → 1NF, 2NF, 3NF, BCNF
-│   ├── Denormalization → Performance vs storage trade-off
-│   ├── ACID Properties → Atomicity, Consistency, Isolation, Durability
+│   ├── Normalization → Reduce data redundancy
+│   ├── Denormalization → Performance optimization
+│   ├── ACID Properties → Transaction consistency
 │   └── CAP Theorem → Consistency, Availability, Partition tolerance
-├── 📊 Performance Optimization
-│   ├── Indexing Strategy → B-tree, Hash, Composite indexes
-│   ├── Query Optimization → Execution plans, query hints
-│   ├── Partitioning → Horizontal, vertical, range partitioning
-│   └── Caching → Application cache, database cache, CDN
-├── 🔄 Data Modeling
-│   ├── ERD → Entity Relationship Diagrams
-│   ├── Schema Design → Tables, relationships, constraints
-│   ├── Data Types → Choosing appropriate data types
-│   └── Constraints → Primary key, foreign key, check constraints
-└── 🚀 Scaling Strategies
-    ├── Read Replicas → Master-slave replication
-    ├── Sharding → Horizontal data distribution
-    ├── Connection Pooling → Efficient connection management
-    └── Database Clustering → High availability setup
+├── 📊 Data Modeling
+│   ├── ER Diagrams → Entity relationships
+│   ├── Normal Forms → 1NF, 2NF, 3NF, BCNF
+│   ├── Indexing → Performance optimization
+│   └── Partitioning → Data distribution
+├── 🔄 Database Types
+│   ├── Relational → SQL databases, ACID compliance
+│   ├── NoSQL → Document, key-value, graph databases
+│   ├── NewSQL → Distributed SQL databases
+│   └── Time Series → Time-based data storage
+├── ⚡ Performance
+│   ├── Query Optimization → Execution plans
+│   ├── Caching → In-memory data storage
+│   ├── Connection Pooling → Resource management
+│   └── Sharding → Horizontal data distribution
+└── 🛡️ Security & Maintenance
+    ├── Backup Strategies → Data protection
+    ├── Access Control → User permissions
+    ├── Monitoring → Performance tracking
+    └── Migration → Schema evolution
 ```
 
 ## 📋 Table of Contents
-- [Database Types](#database-types)
 - [Design Principles](#design-principles)
-- [Performance Optimization](#performance-optimization)
 - [Data Modeling](#data-modeling)
+- [Database Types](#database-types)
+- [Performance](#performance)
+- [Security & Maintenance](#security--maintenance)
 - [Common Interview Questions](#common-interview-questions)
 
 ## 🎯 Database Types

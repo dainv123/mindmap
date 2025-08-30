@@ -1,40 +1,41 @@
-# 🏗️ Microservices Architecture - Complete Knowledge Map
+# 🏗️ Microservices - Complete Knowledge Map
 
 ## 🧠 Mindmap Overview
 ```
-Microservices Architecture
-├── 🎯 Core Concepts
-│   ├── Service Independence → Mỗi service độc lập, tự quản lý
-│   ├── Single Responsibility → Mỗi service làm 1 việc cụ thể
-│   ├── Loose Coupling → Services ít phụ thuộc lẫn nhau
-│   └── Technology Diversity → Mỗi service có thể dùng tech khác nhau
-├── 🏗️ Architecture Components
-│   ├── API Gateway → Entry point, routing, authentication
-│   ├── Service Discovery → Tìm và kết nối services
-│   ├── Load Balancer → Phân tải giữa các instances
-│   └── Circuit Breaker → Xử lý lỗi, fallback mechanisms
+Microservices
+├── 🏗️ Architecture Principles
+│   ├── Single Responsibility → One service, one concern
+│   ├── Loose Coupling → Independent services
+│   ├── High Cohesion → Related functionality together
+│   └── Bounded Context → Clear service boundaries
 ├── 🔄 Communication Patterns
-│   ├── Synchronous → HTTP/REST, gRPC, direct calls
+│   ├── Synchronous → HTTP/REST, gRPC
 │   ├── Asynchronous → Message queues, event-driven
-│   ├── Service Mesh → Istio, Linkerd, traffic management
-│   └── Event Sourcing → Event store, CQRS pattern
-├── 📊 Data Management
-│   ├── Database per Service → Mỗi service có DB riêng
+│   ├── API Gateway → Single entry point
+│   └── Service Mesh → Inter-service communication
+├── 🗄️ Data Management
+│   ├── Database per Service → Data isolation
 │   ├── Saga Pattern → Distributed transactions
-│   ├── Eventual Consistency → BASE model thay vì ACID
-│   └── Data Replication → Cross-service data sync
-└── 🚀 Deployment & Operations
-    ├── Containerization → Docker, container orchestration
-    ├── CI/CD Pipelines → Automated deployment
-    ├── Monitoring → Distributed tracing, logging
-    └── Scaling → Horizontal scaling, auto-scaling
+│   ├── Event Sourcing → Event-driven data
+│   └── CQRS → Command Query Responsibility Segregation
+├── 🚀 Deployment & Scaling
+│   ├── Containerization → Docker, Kubernetes
+│   ├── Service Discovery → Dynamic service location
+│   ├── Load Balancing → Traffic distribution
+│   └── Auto-scaling → Dynamic resource allocation
+└── 🛡️ Resilience & Monitoring
+    ├── Circuit Breaker → Fault tolerance
+    ├── Distributed Tracing → Request tracking
+    ├── Health Checks → Service monitoring
+    └── Observability → Logs, metrics, traces
 ```
 
 ## 📋 Table of Contents
-- [Core Concepts](#core-concepts)
-- [Architecture Components](#architecture-components)
+- [Architecture Principles](#architecture-principles)
 - [Communication Patterns](#communication-patterns)
 - [Data Management](#data-management)
+- [Deployment & Scaling](#deployment--scaling)
+- [Resilience & Monitoring](#resilience--monitoring)
 - [Common Interview Questions](#common-interview-questions)
 
 ## 🎯 Core Concepts

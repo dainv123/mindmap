@@ -1,41 +1,42 @@
-# 🎯 GraphQL - Complete Knowledge Map
+# 🔮 GraphQL - Complete Knowledge Map
 
 ## 🧠 Mindmap Overview
 ```
 GraphQL
-├── 🏗️ Architecture
-│   ├── Schema Definition Language (SDL) → Định nghĩa cấu trúc API
-│   ├── Type System → Hệ thống kiểu dữ liệu mạnh mẽ
-│   ├── Resolvers → Hàm xử lý logic cho từng field
-│   └── Execution Engine → Engine thực thi queries
+├── 🎯 Core Concepts
+│   ├── Query Language → Declarative data fetching
+│   ├── Schema Definition → Type system, introspection
+│   ├── Single Endpoint → One endpoint for all operations
+│   └── Strong Typing → Type safety, validation
+├── 🏗️ Schema Design
+│   ├── Types → Object, Scalar, Input types
+│   ├── Fields → Data properties, relationships
+│   ├── Resolvers → Data fetching logic
+│   └── Directives → Field-level instructions
 ├── 🔄 Operations
-│   ├── Queries → Lấy dữ liệu (GET)
-│   ├── Mutations → Thay đổi dữ liệu (POST/PUT/DELETE)
-│   └── Subscriptions → Nhận dữ liệu real-time
-├── 🛠️ Tools & Ecosystem
-│   ├── Apollo Client/Server → Framework phổ biến nhất
-│   ├── GraphQL Playground → Tool test API
-│   └── Code Generation → Tự động tạo code
+│   ├── Queries → Read operations
+│   ├── Mutations → Write operations
+│   ├── Subscriptions → Real-time updates
+│   └── Fragments → Reusable field sets
 ├── ⚡ Performance
-│   ├── N+1 Problem → Vấn đề query dư thừa
-│   ├── DataLoader → Giải pháp batch loading
-│   └── Caching → Lưu cache để tăng tốc
-└── 🔒 Security
-    ├── Authentication → Xác thực người dùng
-    ├── Authorization → Phân quyền truy cập
-    └── Rate Limiting → Giới hạn số request
+│   ├── DataLoader → Batching, caching
+│   ├── Field Selection → Only fetch needed data
+│   ├── Query Complexity → Prevent expensive queries
+│   └── Caching → Response caching strategies
+└── 🛠️ Tools & Ecosystem
+    ├── Apollo → Client/server libraries
+    ├── Relay → Facebook's GraphQL client
+    ├── GraphiQL → Interactive playground
+    └── Code Generation → Type-safe development
 ```
 
 ## 📋 Table of Contents
 - [Core Concepts](#core-concepts)
-- [Schema & Types](#schema--types)
+- [Schema Design](#schema-design)
 - [Operations](#operations)
-- [Resolvers](#resolvers)
-- [Performance Optimization](#performance-optimization)
-- [Security](#security)
+- [Performance](#performance)
 - [Tools & Ecosystem](#tools--ecosystem)
 - [Common Interview Questions](#common-interview-questions)
-- [Real-world Examples](#real-world-examples)
 
 ## 🎯 Core Concepts
 

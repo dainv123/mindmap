@@ -3,38 +3,39 @@
 ## 🧠 Mindmap Overview
 ```
 Security & Authentication
-├── 🔐 Authentication
-│   ├── JWT → JSON Web Tokens, stateless auth
+├── 🔐 Authentication Methods
+│   ├── JWT → Token-based authentication
 │   ├── OAuth 2.0 → Authorization framework
-│   ├── Session-based → Server-side sessions
-│   └── Multi-factor → 2FA, biometrics, SMS
-├── 🛡️ Authorization
-│   ├── RBAC → Role-based access control
-│   ├── ABAC → Attribute-based access control
-│   ├── ACL → Access control lists
-│   └── Permissions → Granular permissions
-├── 🔒 Security Headers
-│   ├── CORS → Cross-origin resource sharing
-│   ├── CSP → Content security policy
-│   ├── HSTS → HTTP strict transport security
-│   └── XSS Protection → Cross-site scripting
-├── 🚨 Security Threats
-│   ├── SQL Injection → Database attacks
-│   ├── XSS → Cross-site scripting
-│   ├── CSRF → Cross-site request forgery
-│   └── DDoS → Distributed denial of service
-└── 🔧 Security Best Practices
-    ├── Password Security → Hashing, salting
-    ├── HTTPS → SSL/TLS encryption
-    ├── Input Validation → Data sanitization
-    └── Rate Limiting → API protection
+│   ├── SAML → Enterprise SSO
+│   └── Multi-Factor → 2FA, biometrics
+├── 🛡️ Security Principles
+│   ├── CIA Triad → Confidentiality, Integrity, Availability
+│   ├── Defense in Depth → Multiple security layers
+│   ├── Principle of Least Privilege → Minimal access rights
+│   └── Zero Trust → Never trust, always verify
+├── 🔒 Encryption & Hashing
+│   ├── Symmetric → AES, DES, same key
+│   ├── Asymmetric → RSA, ECC, public/private keys
+│   ├── Hashing → SHA, MD5, bcrypt
+│   └── Digital Signatures → Message authenticity
+├── 🌐 Web Security
+│   ├── OWASP Top 10 → Common vulnerabilities
+│   ├── XSS Protection → Cross-site scripting
+│   ├── CSRF Prevention → Cross-site request forgery
+│   └── SQL Injection → Database security
+└── 🚀 Implementation
+    ├── Best Practices → Security guidelines
+    ├── Tools & Libraries → Security frameworks
+    ├── Monitoring → Security monitoring
+    └── Incident Response → Security incidents
 ```
 
 ## 📋 Table of Contents
-- [Authentication](#authentication)
-- [Authorization](#authorization)
-- [Security Headers](#security-headers)
-- [Security Threats](#security-threats)
+- [Authentication Methods](#authentication-methods)
+- [Security Principles](#security-principles)
+- [Encryption & Hashing](#encryption--hashing)
+- [Web Security](#web-security)
+- [Implementation](#implementation)
 - [Common Interview Questions](#common-interview-questions)
 
 ## 🔐 Authentication
